@@ -1,0 +1,95 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+html {
+	text-rendering: optimizeLegibility !important;
+	z-indexwebkit-font-smoothing: antialiased !important;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+
+.red {
+	color: red;
+    -webkit-transition: color 500ms linear 0.01s;
+    -moz-transition: color 500ms linear 0.01s;
+    -o-transition: color 500ms linear 0.01s;
+    transition: color 500ms linear 0.01s;
+}
+
+.red:hover {
+	color: #696969;
+}
+
+nav.navbar-inverse {
+	background: white;
+	border: solid 0 transparent;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+#logo.navbar-brand {
+	float: none;
+	color: #696969;
+    -webkit-transition: color 500ms linear 0.01s;
+    -moz-transition: color 500ms linear 0.01s;
+    -o-transition: color 500ms linear 0.01s;
+    transition: color 500ms linear 0.01s;
+}
+
+#logo.navbar-brand:hover {
+	color: red;
+}
+
+#bg {
+  	position: fixed; 
+  	top: -50%; 
+  	left: -50%; 
+  	width: 200%; 
+  	height: 200%;
+}
+#bg img {
+  	position: absolute; 
+  	top: 0; 
+  	left: 0; 
+  	right: 0; 
+  	bottom: 0; 
+  	margin: auto; 
+  	min-width: 50%;
+  	min-height: 50%;
+}
+
+#center{
+	margin-top: 22%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 12px;
+  	background: rgba( 0, 0, 0, 0.55);
+  	border-radius: 2px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 24px;
+}
+
+span.para {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+
+
